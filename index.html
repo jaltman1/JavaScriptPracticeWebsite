@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Jackson's Racers </title>
+		<script src="doorprize.js"></script>
+		<style>
+			textarea{
+				width: 300px;
+				height: 400px;
+			}
+			button{
+				margin: 10px;
+				padding: 5px;
+			}
+		</style>
+	</head>
+	<body>
+	<h1> Jackson's Racers </h1>
+	<div id="startscreen">
+		<h3> Enter Names </h3>
+		<textarea id="names" autofocus> </textarea>
+		<div> <button id="pickcont"> Pick Contestants! </button> </div>
+	</div>
+	
+	<div id="contscreen">
+		<h3> Contestants </h3>
+			<div id="cont1"> </div>
+			<div id="cont2"> </div>
+			<div id="cont3"> </div>
+			<div id="cont4"> </div>
+			<button id="racebutton"> Race! </button>
+			<button id="cancelbutton"> Cancel </button>
+	</div>
+	
+	<div id="racescreen">
+			<div id="racer1" style="left: 0px; position: relative;"> </div>
+			<div id="racer2" style="left: 0px; position: relative;"> </div>
+			<div id="racer3" style="left: 0px; position: relative;"> </div>
+			<div id="racer4" style="left: 0px; position: relative;"> </div>
+	</div>
+	
+	<div id="winnerscreen">
+		<h3> AND THE WINNER IS! </h3>
+			<div id="winnername"> </div>
+			<button id="newracebutton"> New Race </button>
+	</div>
+	</body>
+</html>
